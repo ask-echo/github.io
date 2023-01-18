@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>わっしょい</title>
+        <meta charset="UTF-8">
+        <script>  
+        alert("こんにちは！実験だよ")
+        for(n=10; n>0; n--){
+                alert("あと"+n+"回おしてね");
+            }
+            alert("お疲れ様！終わりだよ！")
+ 
+            window.onload = function(){
+            setInterval(function() {
+                var dd = new Date();
+                document.getElementById("T1").innerHTML = dd.toLocaleString();
+            
+            },1000)
+        }
+        </script>
+        
+    </head>
+    <body bgcolor="#e4d2d8" text="665e61">
+
+        <h1>理屈はわかんないけど時計ができたぜ</h1>
+        <div id = "T1"><h2>多分準備中</h2></div>
+    </body>
+</html>
